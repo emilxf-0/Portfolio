@@ -3,7 +3,14 @@
 
  ## Pattern Matching
 
-Pattern matching with touch input proved to be a challenge. In order to properly determine if the pattern actually matched the predetermined shape I had to implement a https://en.wikipedia.org/wiki/Dynamic_time_warping Dynamic Time Warping Algorithm. 
+The player gets momentum | The opposing player gets momentum
+:------------------------|------------------------------------------:
+![](https://github.com/emilxf-0/Portfolio/blob/main/Project%20Accio/PlayerMomentum.gif) |![](https://github.com/emilxf-0/Portfolio/blob/main/Project%20Accio/EnemyMomentum.gif)
+
+
+
+
+Pattern matching with touch input proved to be a challenge. In order to properly determine if the pattern actually matched the predetermined shape I had to implement a  [Dynamic Time Warping Algorithm](https://en.wikipedia.org/wiki/Dynamic_time_warping). 
 
 ```c#
     private float Match()
@@ -65,5 +72,7 @@ This function returns a float that I use to compare the pattern the player makes
 
     }
   ```
+
+
 
   
