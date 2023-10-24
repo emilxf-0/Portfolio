@@ -1,8 +1,8 @@
 # Emil Forsén Portfolio
  
-A collection of the things I've done. 
+An overview over the projects I've been a part of. 
 
-# Group Project
+# Group Projects
 
 ## Losing My Marbles
 Developed: 2022 Nov - 2023 Jan
