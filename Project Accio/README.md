@@ -12,70 +12,12 @@ The player gets momentum | The opposing player gets momentum
 ![](https://github.com/emilxf-0/Portfolio/blob/main/Project%20Accio/PlayerMomentum.gif) |![](https://github.com/emilxf-0/Portfolio/blob/main/Project%20Accio/EnemyMomentum.gif)
 
 
-Pattern matching with touch input proved to be a challenge. In order to properly determine if the pattern actually matched the predetermined shape I had to implement a  [Dynamic Time Warping Algorithm](https://en.wikipedia.org/wiki/Dynamic_time_warping). 
+Pattern matching with touch input proved to be a challenge. In order to properly determine if the pattern actually matched the predetermined shape I had to implement a [Dynamic Time Warping Algorithm](https://en.wikipedia.org/wiki/Dynamic_time_warping). 
 
-```c#
-    private float Match()
-    {
-        float[] distanceRow = new float[preDefinedSymbolPoints.Length + 1];
+In the update method we handle the touch input and store it in `userInputPoints[]` so we can compare them with the predefined symbols that make up the game play. When the player lifts their finger the result is sent to the database via `SendPlayerInfo()`. 
 
-        for (int j = 0; j <= preDefinedSymbolPoints.Length; j++)
-        {
-            distanceRow[j] = float.PositiveInfinity;
-        }
-        
-        distanceRow[0] = 0;
-        
-        for (int i = 1; i <= userSymbolPoints.Length; i++)
-        {
-            float[] newDistanceRow = new float[preDefinedSymbolPoints.Length + 1];
-            newDistanceRow[0] = float.PositiveInfinity;
-            
-            for (int j = 1; j <= preDefinedSymbolPoints.Length; j++)
-            {
-                float cost = Vector3.Distance(userInputPoints[i - 1], preDefinedSymbolPoints[j - 1]);
-                newDistanceRow[j] = cost + Mathf.Min(distanceRow[j], Mathf.Min(newDistanceRow[j - 1], distanceRow[j - 1]));
-            }
-
-            distanceRow = newDistanceRow;
-        }
-        
-        return distanceRow[preDefinedSymbolPoints.Length];
-    }
-```
-This function returns a float that I use to compare the pattern the player makes with the predefined symbol. The magic numbers are there because I had to manually test the threshold values for different symbols on different devices (obviously an improvement to be made at some point).
-
-  ```c#
-    private bool CompareInputWithSymbol(GameManager.Symbols symbols)
-    {
-        var thresholdValue = Match();
-
-        switch (symbols)
-        {
-            case GameManager.Symbols.TRIANGLE:
-                if (thresholdValue is < 108 or > 150) return false;
-                return true;
-
-            case GameManager.Symbols.SQUARE:
-                if (thresholdValue is < 200 or > 246) return false;
-                return true;
-
-            case GameManager.Symbols.PENTAGRAM:
-                if (thresholdValue is < 265 or > 365) return false;
-                return true;
-
-            case GameManager.Symbols.LIGHTNING:
-                if (thresholdValue is < 88 or > 118) return false;
-                return true;
-
-        }
-
-        throw new ArgumentException("No match for: " + symbols);
-
-    }
-```
-
-In the update method I handle the touch input and when the player lifts their finger the result is sent to the database via `SendPlayerInfo()`
+<details>
+<summary>Expand code block</summary>
 
 ```c#
     void Update()
@@ -123,17 +65,99 @@ In the update method I handle the touch input and when the player lifts their fi
         FadeLine();
     }
 ```
+</details>
+
+Let's have a look at the `Match()` function first. Here we return a float that we use to compare the pattern the player makes with the predefined symbol. 
+
+<details>
+<summary>Expand code block</summary>
+
+```c#
+    private float Match()
+    {
+        float[] distanceRow = new float[preDefinedSymbolPoints.Length + 1];
+
+        for (int j = 0; j <= preDefinedSymbolPoints.Length; j++)
+        {
+            distanceRow[j] = float.PositiveInfinity;
+        }
+        
+        distanceRow[0] = 0;
+        
+        for (int i = 1; i <= userSymbolPoints.Length; i++)
+        {
+            float[] newDistanceRow = new float[preDefinedSymbolPoints.Length + 1];
+            newDistanceRow[0] = float.PositiveInfinity;
+            
+            for (int j = 1; j <= preDefinedSymbolPoints.Length; j++)
+            {
+                float cost = Vector3.Distance(userInputPoints[i - 1], preDefinedSymbolPoints[j - 1]);
+                newDistanceRow[j] = cost + Mathf.Min(distanceRow[j], Mathf.Min(newDistanceRow[j - 1], distanceRow[j - 1]));
+            }
+
+            distanceRow = newDistanceRow;
+        }
+        
+        return distanceRow[preDefinedSymbolPoints.Length];
+    }
+```
+</details>
+
+We then call `Match()` within `CompareInputWithSymbols()` to get a `thresholdValue` to compare with value from the predefined shapes. The magic numbers are there because I had to manually test the threshold values for different symbols on different devices (obviously an improvement to be made at some point).
+
+<details>
+<summary>Expand code block</summary>
+ 
+  ```c#
+    private bool CompareInputWithSymbol(GameManager.Symbols symbols)
+    {
+        var thresholdValue = Match();
+
+        switch (symbols)
+        {
+            case GameManager.Symbols.TRIANGLE:
+                if (thresholdValue is < 108 or > 150) return false;
+                return true;
+
+            case GameManager.Symbols.SQUARE:
+                if (thresholdValue is < 200 or > 246) return false;
+                return true;
+
+            case GameManager.Symbols.PENTAGRAM:
+                if (thresholdValue is < 265 or > 365) return false;
+                return true;
+
+            case GameManager.Symbols.LIGHTNING:
+                if (thresholdValue is < 88 or > 118) return false;
+                return true;
+
+        }
+
+        throw new ArgumentException("No match for: " + symbols);
+
+    }
+```
+</details>
 
 Which is a nice segue into the main assignment, which was to build a mobile game that in some form uses saved data stored in an online database (firebase).
 
-## Firebase
+To give you a snapshot I'd better fire up Lucidchart and just make a flowchart of how everything flows. 
 
-So, how this works is that both players sends info about their move to Firebase
+![AccioFlowchart](https://github.com/emilxf-0/Portfolio/assets/103435576/f9b69665-da9e-4208-ae89-1c38e70f8a45)
 
+So there's a level of indirection between the player controls and what gets updated on the screen. The players device won't now what to do until they get the message from Firebase, even if it's their own message. Otherwise they wouldn't have anything to compare with.
+
+Let's walk through the details. 
+
+The `SendPlayerInfo()` function collects a bunch of data like `PlayerReactionTime`, `PlayerID`, `sequencePosition`, `gameSessionID` and `createdCorrectSymbol`. These are the parameters that we'll use to determine who has the momentum once we get them back from Firebase.
+
+<details>
+<summary>Expand code block</summary>
+ 
 ```c#
-private void SendPlayerInfo()
+ private void SendPlayerInfo()
     {
-        var playerReaction = GameManager.Instance.GetPlayerTimeStamp();
+        var playerReactionTime = GameManager.Instance.GetPlayerTimeStamp();
         var playerID = GameManager.Instance.playerID;
         var sequencePosition = GameManager.Instance.sequence.sequencePosition;
         var gameSessionID = GameManager.gameSessionID;
@@ -142,20 +166,24 @@ private void SendPlayerInfo()
         
         if (DatabaseAPI.Instance.singlePlayerGame)
         {
-            GameManager.Instance.latestPlayerTimestamp = playerReaction;
+            GameManager.Instance.latestPlayerTimestamp = playerReactionTime;
             GameManager.Instance.SinglePlayerGame();
         }
         else
         {
-            DatabaseAPI.Instance.SendAction(new PlayerInfo(playerID, playerReaction, sequencePosition, gameSessionID, createdCorrectSymbol), () =>
+            DatabaseAPI.Instance.SendAction(new PlayerInfo(playerID, playerReactionTime, sequencePosition, gameSessionID, createdCorrectSymbol), () =>
             {
                 // Action was sent!
             }, exception => { Debug.Log(exception); });
         }
     }
 ```
+</details>
 
-Then the GameManager listens for changes to the database
+The GameManager has to listen for changes to the database and once it snaps something up it will process the data. 
+
+<details>
+<summary>Expand code block</summary>
 
 ```c#
     private void Start()
@@ -170,8 +198,12 @@ Then the GameManager listens for changes to the database
         DatabaseAPI.Instance.isListening = true;
     }
 ```
+</details>
 
-I check if the playerID from the latest message matches the player's playerID
+We check if the `playerID` from the latest message matches the player's `playerID` or if it's from the opponent.
+
+<details>
+<summary>Expand code block</summary>
 
 ```c#
    private void InstantiateMomentum(PlayerInfo playerInfo)
@@ -196,8 +228,12 @@ I check if the playerID from the latest message matches the player's playerID
         lastEnemyPosition = enemySequencePosition;
     }
 ```
+</details>
 
-Then check if the player should have the momentum
+Then we check if the player should have momentum by comparing the parameters we got from the latest message with some predetermined rules like if the player created the correct symbol or is at the current symbol.   
+
+<details>
+<summary>Expand code block</summary>
 
 ```c#
    public void CheckIfPlayerShouldHaveMomentum()
@@ -217,7 +253,15 @@ Then check if the player should have the momentum
         {
             return;
         }
-        
+```
+</details>
+
+We also check against the last saved enemy data.
+
+<details>
+<summary>Expand code block</summary>
+ 
+```c#
         gameHasStarted = true;
         
         if (sequence.inputMatchSequence && enemyCreatedCorrectSymbol == false)
@@ -274,9 +318,13 @@ Then check if the player should have the momentum
         }
     }
 ```
+</details>
 
-Because I have to make sure the action is mirrored on the other device I need one check for enemy momentum and one for player momentum
+Because we have to make sure the action is mirrored on the other device (the middlepoint should travel in different directions depending on who whas momentum right?) we need to make a check if the latest message is from the opponent. It's the same checks and balances as in `CheckIfPlayerShouldHaveMomentum()`.
 
+<details>
+<summary>Expand code block</summary>
+ 
 ```c#
 public void CheckIfEnemyShouldHaveMomentum(float enemyTimeStamp, bool enemySymbolIsCorrect, int enemyPosition)
     {
@@ -348,3 +396,4 @@ public void CheckIfEnemyShouldHaveMomentum(float enemyTimeStamp, bool enemySymbo
         
     }
 ```
+</details>
