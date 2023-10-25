@@ -472,7 +472,7 @@ enemy.addComponent<ColliderComponent>("enemy");
 
 ```
 *a wild road rager appears*
-![](https://github.com/emilxf-0/Portfolio/blob/main/Beef%20System/AddTrafficlight.gif)
+![](https://github.com/emilxf-0/Portfolio/blob/main/Beef%20System/AddEnemy.gif)
 
 
 ## What's next?
