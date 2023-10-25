@@ -3,7 +3,7 @@
 My master thesis is divided into two parts
 
 1. Get a fundamental understanding of code by learning SDL2 and C++ 
-2. Create a small scale, nemesis like system 
+2. Create a small scale, [nemesis like system](https://www.polygon.com/middle-earth-shadow-of-war-guide/2017/10/9/16439610/the-nemesis-system-and-you) 
 
 ## Part 1
 To take some of the black box feeling away from game programming I've decided to forego any engines and learn C++ by using [SDL2](https://www.libsdl.org/). One of the challenges by doing that is that I have to completely recreate what's usually just double clicking the unity icon. 
@@ -424,7 +424,6 @@ private:
 
 With all that set up we can easily create Entities that comprise of the components we like. 
 
-
 In the Game.cpp we add a `player` entity and then we add all the components we like to that entity. 
 
 ```c++
@@ -433,10 +432,49 @@ auto& player(manager.addEntity());
 
 // ...other code
 
-	player.addComponent<TransformComponent>();
-	player.addComponent<RotationComponent>();
-	player.addComponent<SpriteComponent>("assets/cars/player_car.png");
-	player.addComponent<Controller>();
-	player.addComponent<ColliderComponent>("player");
+player.addComponent<TransformComponent>();
+player.addComponent<RotationComponent>();
+player.addComponent<SpriteComponent>("assets/cars/player_car.png");
+player.addComponent<Controller>();
+player.addComponent<ColliderComponent>("player");
 
 ```
+*et voila*
+![](https://github.com/emilxf-0/Portfolio/blob/main/Beef%20System/AddPlayer.gif)
+
+But that's not all. We can use the same system to add other entities as well. Let's say that we want to add a traffic light. 
+```c++
+
+auto& player(manager.addEntity());
+auto& trafficLight(manager.addEntity());
+
+// ...player code
+
+trafficLight.addComponent<TransformComponent>(150, 150);
+trafficLight.addComponent<SpriteComponent>("assets/props/trafficlight/red.png");
+
+```
+*Look it's a state machine*
+![](https://github.com/emilxf-0/Portfolio/blob/main/Beef%20System/AddTrafficlight.gif)
+
+And enemies
+
+```c++
+auto& enemy(manager.addEntity());
+
+// ...player code
+// ...traffic light code
+
+enemy.addComponent<TransformComponent>();
+enemy.addComponent<RotationComponent>();
+enemy.addComponent<SpriteComponent>("assets/cars/enemy_car.png");
+enemy.addComponent<ColliderComponent>("enemy");
+
+```
+*a wild road rager appears*
+![](https://github.com/emilxf-0/Portfolio/blob/main/Beef%20System/AddTrafficlight.gif)
+
+
+## What's next?
+
+Now I'm at a point where I feel like I can start with the nemesis system. There are a lot of things I *could* do with this, like making a `AIcontroller` that I can pass into the controller component and make everything even more modular. But what I want to focus on now is creating interesting enemies that will have life of their own.   
