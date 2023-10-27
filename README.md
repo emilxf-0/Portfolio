@@ -53,7 +53,7 @@ Networking: Firebase
 
 Genre: PVP, tug of war, pattern matching
 
-## [Beef System (Master Thesis)]([https://github.com/emilxf-0/beef-system](https://github.com/emilxf-0/Portfolio/tree/main/Beef%20System))
+## [Beef System (Master Thesis)](https://github.com/emilxf-0/beef-system](https://github.com/emilxf-0/Portfolio/tree/main/Beef%20System))
 Developed: 2023 Oct - ongoing
 
 Library: SDL2
