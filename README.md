@@ -5,25 +5,33 @@ An overview over the projects I've been a part of.
 # Group Projects
 
 ## Losing My Marbles
-![[Losing my marbles title.png]]
-**Overview**
+![[Losing my marbles title.png]](https://github.com/emilxf-0/Portfolio/blob/main/Images/Losing%20my%20marbles%20title.png)
+
+### Overview
+
 Losing my marbles is a semi online, couch co-op game where you and your friends use your mobile phones to control your characters. Drawing inspiration from classic board game [RoboRally](https://boardgamegeek.com/boardgame/18/roborally) and party game favorite [Jackbox](https://www.jackboxgames.com/) we created a 2D puzzle/race game as a 7-week project at [Yrgo](https://www.yrgo.se).
 
-**Developed:** 2022 Nov - 2023 Jan
+### Developed: 
+2022 Nov - 2023 Jan
 
-**Engine:** Unity
+### Engine: 
+Unity
 
-**Language:** C#
+### Language: 
+C#
 
-**Networking:** Firebase
+### Networking: 
+Firebase
 
-**Genre:** Couch CO-OP, Party, Tactical puzzle 
+### Genre: 
+Couch CO-OP, Party, Tactical puzzle 
 
-**Team:** 
-Programmers
-Me, [Max Petersson](https://github.com/Max-Petersson), [Carl Lycke](https://github.com/llrac)
-Artists
-[Tom Hammar](https://www.artstation.com/tomhammar), [Jenny-Li Levin](https://www.artstation.com/jenny-lilevin), [Sofia Bjerned Hansson](https://www.artstation.com/sofiabjernedhansson) 
+### Team: 
+**Programmers** | **Artists** 
+-------|-------
+Me | [Tom Hammar](https://www.artstation.com/tomhammar)
+[Max Petersson](https://github.com/Max-Petersson) | [Sofia Bjerned Hansson](https://www.artstation.com/sofiabjernedhansson)
+[Carl Lycke](https://github.com/llrac) | [Jenny-Li Levin](https://www.artstation.com/jenny-lilevin) 
 
 ## Flesh and Stone
 Developed: 2023 March - 2023 May
