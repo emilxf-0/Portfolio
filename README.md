@@ -4,8 +4,10 @@ An overview over the projects I've been a part of.
 
 ### Projects
 
->[!NOTE] A note about Project management
-Aight, it's fairly boring to throw around a bunch of project management terms like scrum, agile, trello, kanban boards etc. It's basically just name dropping tools. What I did was making sure people kept their focus, encouraged them to help each other out and keeping the weekly goal concrete. This is something I've been responsible for in all of the projects I've been part of and in the interest of keeping things DRY I'll just refer back to this note when needed. 
+>**Note**
+>#### A note about Project management
+> 
+>I can throw around a bunch of project management terms like scrum, agile, trello, kanban boards etc. as much as the next guy - but it's basically just name dropping tools. What I did was making sure people kept their focus, encouraged them to help each other out and keeping the weekly goal concrete. This is something I've been responsible for in all of the projects I've been part of and in the interest of keeping things DRY I'll just refer back to this note when needed. 
 # Group Projects
 
 ### Losing My Marbles
