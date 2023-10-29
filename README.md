@@ -1,6 +1,6 @@
 # Emil Forsén Portfolio
  
-An overview over the projects I've been a part of. 
+An overview over the projects I've been a part of.
 
 # Group Projects
 
@@ -12,19 +12,24 @@ An overview over the projects I've been a part of.
 Losing my marbles is a semi online, couch co-op game where you and your friends use your mobile phones to control your characters. Drawing inspiration from classic board game [RoboRally](https://boardgamegeek.com/boardgame/18/roborally) and party game favorite [Jackbox](https://www.jackboxgames.com/) we created a 2D puzzle/race game as a 7-week project at [Yrgo](https://www.yrgo.se).
 
 ### Developed: 
-2022 Nov - 2023 Jan
+
+**2022 Nov - 2023 Jan**
 
 ### Engine: 
-Unity
+
+**Unity**
 
 ### Language: 
-C#
+
+**C#**
 
 ### Networking: 
-Firebase
+
+**Firebase**
 
 ### Genre: 
-Couch CO-OP, Party, Tactical puzzle 
+
+**Couch CO-OP, Party, Tactical puzzle** 
 
 ### Team: 
 **Programmers** | **Artists** 
@@ -34,48 +39,95 @@ Me | [Tom Hammar](https://www.artstation.com/tomhammar)
 [Carl Lycke](https://github.com/llrac) | [Jenny-Li Levin](https://www.artstation.com/jenny-lilevin) 
 
 ## Flesh and Stone
-Developed: 2023 March - 2023 May
 
-Engine: Unreal Engine 5.1
 
-"Language": Blueprints
+### Developed: 
 
-Genre: Single player, 3rd person, Hack n slash
+**2023 March - 2023 May**
 
-Team: 4 Programmers and 4 Artists
+### Engine: 
 
+**Unreal Engine 5.1**
+
+### "Language": 
+
+**Blueprints**
+
+### Genre: 
+
+Single player, 3rd person, Hack n slash
+
+### Team: 
+**Programmers** | **Artists** 
+-------|-------
+Me | [Tom Hammar](https://www.artstation.com/tomhammar)
+[Max Petersson](https://github.com/Max-Petersson) | [Jon Cho](https://www.artstation.com/joncho3)
+[Ajdin Talic](https://github.com/MagmarRager) | [Emil Carlsson](https://www.artstation.com/emilcarlsson)
 ## Get Up
-Developed: 2023 September - 2023 October
+Developed: 
 
-Engine: Unity
+2023 September - 2023 October
 
-Language: C#
+Engine: 
 
-Genre: VR, Single player, Simulation
+**Unity**
 
-Team: 3 Programmers and 3 Artists
+Language: 
 
+**C#**
+
+Genre: 
+
+**VR, Single player, Simulation**
+
+Team: 
+
+**Programmers** | **Artists** 
+-------|-------
+Me | [Alvin Alvrud](https://www.artstation.com/alvrudart)
+[Adam Hjelm](https://github.com/Adam-Hjelm) | [Tom Hammar](https://www.artstation.com/tomhammar)
+[Henrik Nyström](https://github.com/sweviceroy) | [Emil Carlsson](https://www.artstation.com/sandratollefsen)
 
 # Individual Projects
 
 ## [Project Accio](https://github.com/emilxf-0/Portfolio/tree/main/Project%20Accio)
-Developed: 2023 Jan - 2023 Feb
 
-Engine: Unity
+### Developed: 
 
-Language: C#
+**2023 Jan - 2023 Feb**
 
-Networking: Firebase
+### Engine: 
 
-Genre: PVP, tug of war, pattern matching
+### Unity
+
+### Language: 
+
+**C#**
+
+### Networking: 
+
+**Firebase**
+
+### Genre: 
+
+**PVP, tug of war, pattern matching**
 
 ## [Beef System (Master Thesis)](https://github.com/emilxf-0/beef-system](https://github.com/emilxf-0/Portfolio/tree/main/Beef%20System))
-Developed: 2023 Oct - ongoing
 
-Library: SDL2
+### Developed: 
 
-Language: C++
+**2023 Oct - ongoing**
 
-Genre: Master Thesis
+### Library: 
+
+**SDL2**
+
+### Language: 
+
+**C++**
+
+### Genre: 
+
+**Master Thesis**
 
 
