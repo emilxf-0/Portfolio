@@ -1,4 +1,4 @@
-# Emil Forsen Portfolio
+# Emil Forsén Portfolio
  
 An overview over the projects I've been a part of.
 
@@ -19,7 +19,7 @@ Losing my marbles is a semi online, couch co-op game where you and your friends 
 
 ### My contribution
 
->[!IMPORTANT] **Networking**
+**Networking**
 I was responsible for making networking work. That meant setting up a database that Unity could talk to, create a lobby to ensure that we could run more than one game at a time (fairly important in terms of scalability), and create the controllers. 
 
 **Project management** 
@@ -60,9 +60,8 @@ Flesh and Stone is a super stylized hack n slash game in the vein of DMC and God
 
 ### My contributions
 
-**Combat system**
->[!IMPORTANT] Combat System
-> I was responsible for making combat feel crunchy, impactful and intuitive. That meant setting up key bindings and blue prints that handled both singular attacks and combos. I worked extensively with timing and gracefully add interactivity to the animation made by the animator. 
+**Combat system** 
+I was responsible for making combat feel crunchy, impactful and intuitive. That meant setting up key bindings and blue prints that handled both singular attacks and combos. I worked extensively with timing and gracefully add interactivity to the animation made by the animator. 
 
 **Project management**
 See [note above](#projects)
@@ -89,23 +88,25 @@ Me | [Tom Hammar](https://www.artstation.com/tomhammar)
 [Max Petersson](https://github.com/Max-Petersson) | [Jon Cho](https://www.artstation.com/joncho3)
 [Ajdin Talic](https://github.com/MagmarRager) | [Emil Carlsson](https://www.artstation.com/emilcarlsson)
 ## Get Up
-Developed: 
+![[Get up title.png]]
 
-2023 September - 2023 October
+### Developed: 
 
-Engine: 
+**2023 September - 2023 October**
+
+### Engine: 
 
 **Unity**
 
-Language: 
+### Language: 
 
 **C#**
 
-Genre: 
+### Genre: 
 
 **VR, Single player, Simulation**
 
-Team: 
+### Team: 
 
 **Programmers** | **Artists** 
 -------|-------
