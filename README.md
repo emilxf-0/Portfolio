@@ -50,7 +50,7 @@ Me | [Tom Hammar](https://www.artstation.com/tomhammar)
 
 ## Flesh and Stone
 
-![[Flesh and stone title.png]]
+![](https://github.com/emilxf-0/Portfolio/blob/main/Images/Flesh%20and%20stone%20title.png)
 ### Overview
 
 Flesh and Stone is a super stylized hack n slash game in the vein of DMC and God of War. We wanted to do something that had the same speedy feel like Doom but that heavily incorporates melee combat. 
@@ -84,7 +84,7 @@ Me | [Tom Hammar](https://www.artstation.com/tomhammar)
 [Max Petersson](https://github.com/Max-Petersson) | [Jon Cho](https://www.artstation.com/joncho3)
 [Ajdin Talic](https://github.com/MagmarRager) | [Emil Carlsson](https://www.artstation.com/emilcarlsson)
 ## Get Up
-![[Get up title.png]]
+![](https://github.com/emilxf-0/Portfolio/blob/main/Images/Get%20up%20title.png)
 
 >**Important** 
 >
