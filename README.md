@@ -1,6 +1,6 @@
 # Emil Forsén Portfolio
  
-An overview over the projects I've been a part of.
+An overview over the projects I've been a part of. 
 
 ### Projects
 
@@ -24,26 +24,23 @@ I was responsible for making networking work. That meant setting up a database t
 
 **Project management** 
 See note [at the top](#projects)
-### Developed: 
 
-**2022 Nov - 2023 Jan**
-
-### Engine: 
-
-**Unity**
-
-### Language: 
-
-**C#**
-
-### Networking: 
-
-**Firebase**
-
-### Genre: 
-
-**Couch CO-OP, Party, Tactical puzzle** 
-
+>**Important**
+>
+>### Developed: 
+>**2022 Nov - 2023 Jan**
+>
+>### Engine
+>**Unity**
+>
+>### Language: 
+>C#
+>
+>### Networking
+>Firebase
+>
+>### Genre
+>Couch co-op, Party game, Tactical puzzle
 ### Team: 
 **Programmers** | **Artists** 
 -------|-------
@@ -65,21 +62,20 @@ I was responsible for making combat feel crunchy, impactful and intuitive. That 
 
 **Project management**
 See [note above](#projects)
-### Developed: 
 
-**2023 March - 2023 May**
-
-### Engine: 
-
-**Unreal Engine 5.1**
-
-### "Language": 
-
-**Blueprints**
-
-### Genre: 
-
-Single player, 3rd person, Hack n slash
+>**Important** 
+>
+>### Developed: 
+>**2023 March - 2023 May**
+>
+>### Engine: 
+>**Unreal Engine 5.1**
+>
+>### "Language": 
+>**Blueprints**
+>
+>### Genre: 
+>Single player, 3rd person, Hack n slash
 
 ### Team: 
 **Programmers** | **Artists** 
@@ -90,22 +86,19 @@ Me | [Tom Hammar](https://www.artstation.com/tomhammar)
 ## Get Up
 ![[Get up title.png]]
 
-### Developed: 
-
-**2023 September - 2023 October**
-
-### Engine: 
-
-**Unity**
-
-### Language: 
-
-**C#**
-
-### Genre: 
-
-**VR, Single player, Simulation**
-
+>**Important** 
+>
+>### Developed: 
+>**2023 September - 2023 October**
+>
+>### Engine: 
+>**Unity**
+>
+>### Language: 
+>**C#**
+>
+>### Genre: 
+>**VR, Single player, Simulation**
 ### Team: 
 
 **Programmers** | **Artists** 
@@ -118,42 +111,36 @@ Me | [Alvin Alvrud](https://www.artstation.com/alvrudart)
 
 ## [Project Accio](https://github.com/emilxf-0/Portfolio/tree/main/Project%20Accio)
 
-### Developed: 
-
-**2023 Jan - 2023 Feb**
-
-### Engine: 
-
-### Unity
-
-### Language: 
-
-**C#**
-
-### Networking: 
-
-**Firebase**
-
-### Genre: 
-
-**PVP, tug of war, pattern matching**
+>**Important**
+>
+>### Developed: 
+>**2023 Jan - 2023 Feb**
+>
+>### Engine: 
+>Unity
+>
+>### Language: 
+>**C#**
+>
+>### Networking: 
+>**Firebase**
+>
+>### Genre: 
+>**PVP, tug of war, pattern matching**
 
 ## [Beef System (Master Thesis)](https://github.com/emilxf-0/beef-system](https://github.com/emilxf-0/Portfolio/tree/main/Beef%20System))
 
-### Developed: 
-
-**2023 Oct - ongoing**
-
-### Library: 
-
-**SDL2**
-
-### Language: 
-
-**C++**
-
-### Genre: 
-
-**Master Thesis**
+>**Important**
+>### Developed: 
+>**2023 Oct - ongoing**
+>
+>### Library: 
+>**SDL2**
+>
+>### Language: 
+>**C++**
+>
+>### Genre: 
+>**Master Thesis**
 
 
