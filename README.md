@@ -1,16 +1,27 @@
-# Emil Forsén Portfolio
+# Emil Forsen Portfolio
  
 An overview over the projects I've been a part of.
 
+### Projects
+
+>[!NOTE] A note about Project management
+Aight, it's fairly boring to throw around a bunch of project management terms like scrum, agile, trello, kanban boards etc. It's basically just name dropping tools. What I did was making sure people kept their focus, encouraged them to help each other out and keeping the weekly goal concrete. This is something I've been responsible for in all of the projects I've been part of and in the interest of keeping things DRY I'll just refer back to this note when needed. 
 # Group Projects
 
-## Losing My Marbles
+### Losing My Marbles
 ![[Losing my marbles title.png]](https://github.com/emilxf-0/Portfolio/blob/main/Images/Losing%20my%20marbles%20title.png)
 
 ### Overview
 
 Losing my marbles is a semi online, couch co-op game where you and your friends use your mobile phones to control your characters. Drawing inspiration from classic board game [RoboRally](https://boardgamegeek.com/boardgame/18/roborally) and party game favorite [Jackbox](https://www.jackboxgames.com/) we created a 2D puzzle/race game as a 7-week project at [Yrgo](https://www.yrgo.se).
 
+### My contribution
+
+>[!IMPORTANT] **Networking**
+I was responsible for making networking work. That meant setting up a database that Unity could talk to, create a lobby to ensure that we could run more than one game at a time (fairly important in terms of scalability), and create the controllers. 
+
+**Project management** 
+See note [at the top](#projects)
 ### Developed: 
 
 **2022 Nov - 2023 Jan**
@@ -40,7 +51,19 @@ Me | [Tom Hammar](https://www.artstation.com/tomhammar)
 
 ## Flesh and Stone
 
+![[Flesh and stone title.png]]
+### Overview
 
+Flesh and Stone is a super stylized hack n slash game in the vein of DMC and God of War. We wanted to do something that had the same speedy feel like Doom but that heavily incorporates melee combat. 
+
+### My contributions
+
+**Combat system**
+>[!IMPORTANT] Combat System
+> I was responsible for making combat feel crunchy, impactful and intuitive. That meant setting up key bindings and blue prints that handled both singular attacks and combos. I worked extensively with timing and gracefully add interactivity to the animation made by the animator. 
+
+**Project management**
+See [note above](#projects)
 ### Developed: 
 
 **2023 March - 2023 May**
