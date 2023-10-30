@@ -68,6 +68,10 @@ Me | [Tom Hammar](https://www.artstation.com/tomhammar)
 
 Flesh and Stone is a super stylized hack n slash game in the vein of DMC and God of War. We wanted to do something that had the same speedy feel like Doom but that heavily incorporates melee combat. 
 
+**BluePrints** | **Animation** | In Game
+--- | --- | ---
+![[AttackInputBP.gif]]| ![[LightAttackAnim.gif]] | ![[LightAttackClip.gif]]
+
 ### My contribution
 
 **Combat system** 
