@@ -2,6 +2,9 @@
  
 An overview over the projects I've been a part of. 
 
+###### TW Github md syntax
+Okay, so I _know_ that I'm manhandling the precious github markdown-syntax in this repo, but I had to fix the layout somehow. If you're sensitive about that kind of thing you've been fairly warned. 
+
 ### Projects
 
 >**Note**
@@ -20,12 +23,15 @@ Losing my marbles is a semi online, couch co-op game where you and your friends 
 ### My contribution
 
 **Networking**
+
 I was responsible for making networking work. That meant setting up a database that Unity could talk to, create a lobby to ensure that we could run more than one game at a time (fairly important in terms of scalability), and create the controllers. 
 
 **Project management** 
+
 See note [at the top](#projects)
 
->**Important**
+<details>
+<summary>🎮 Game Details</summary>
 >
 >### Developed: 
 >**2022 Nov - 2023 Jan**
@@ -41,6 +47,8 @@ See note [at the top](#projects)
 >
 >### Genre
 >Couch co-op, Party game, Tactical puzzle
+</details>
+
 ### Team: 
 **Programmers** | **Artists** 
 -------|-------
@@ -50,7 +58,7 @@ Me | [Tom Hammar](https://www.artstation.com/tomhammar)
 
 ## Flesh and Stone
 
-![](https://github.com/emilxf-0/Portfolio/blob/main/Images/Flesh%20and%20stone%20title.png)
+![[Flesh and stone title.png]](https://github.com/emilxf-0/Portfolio/blob/main/Images/Flesh%20and%20stone%20title.png)
 ### Overview
 
 Flesh and Stone is a super stylized hack n slash game in the vein of DMC and God of War. We wanted to do something that had the same speedy feel like Doom but that heavily incorporates melee combat. 
@@ -58,12 +66,14 @@ Flesh and Stone is a super stylized hack n slash game in the vein of DMC and God
 ### My contributions
 
 **Combat system** 
+
 I was responsible for making combat feel crunchy, impactful and intuitive. That meant setting up key bindings and blue prints that handled both singular attacks and combos. I worked extensively with timing and gracefully add interactivity to the animation made by the animator. 
 
 **Project management**
+
 See [note above](#projects)
 
->**Important** 
+>**Important Details** 
 >
 >### Developed: 
 >**2023 March - 2023 May**
@@ -84,7 +94,7 @@ Me | [Tom Hammar](https://www.artstation.com/tomhammar)
 [Max Petersson](https://github.com/Max-Petersson) | [Jon Cho](https://www.artstation.com/joncho3)
 [Ajdin Talic](https://github.com/MagmarRager) | [Emil Carlsson](https://www.artstation.com/emilcarlsson)
 ## Get Up
-![](https://github.com/emilxf-0/Portfolio/blob/main/Images/Get%20up%20title.png)
+![[Get up title.png]](https://github.com/emilxf-0/Portfolio/blob/main/Images/Get%20up%20title.png)
 
 >**Important** 
 >
