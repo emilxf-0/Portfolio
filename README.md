@@ -56,6 +56,17 @@ Me | [Tom Hammar](https://www.artstation.com/tomhammar)
 ## Flesh and Stone
 
 ![[Flesh and stone title.png]](https://github.com/emilxf-0/Portfolio/blob/main/Images/Flesh%20and%20stone%20title.png)
+
+<details open>
+ 
+ >**Developed:** 2023 March - 2023 May
+>
+>**Engine:** Unreal 5
+>
+>**Language:** Blueprints
+>
+>**Genre:** Single player, 3rd person, Hack n slash
+</details>
 ### Overview
 
 Flesh and Stone is a super stylized hack n slash game in the vein of DMC and God of War. We wanted to do something that had the same speedy feel like Doom but that heavily incorporates melee combat. 
@@ -70,20 +81,6 @@ I was responsible for making combat feel crunchy, impactful and intuitive. That 
 
 See [note above](#projects)
 
->**Important Details** 
->
->### Developed: 
->**2023 March - 2023 May**
->
->### Engine: 
->**Unreal Engine 5.1**
->
->### "Language": 
->**Blueprints**
->
->### Genre: 
->Single player, 3rd person, Hack n slash
-
 ### Team: 
 **Programmers** | **Artists** 
 -------|-------
@@ -93,19 +90,17 @@ Me | [Tom Hammar](https://www.artstation.com/tomhammar)
 ## Get Up
 ![[Get up title.png]](https://github.com/emilxf-0/Portfolio/blob/main/Images/Get%20up%20title.png)
 
->**Important** 
+<details open>
+ 
+ >**Developed:** 2023 September - 2023 October
 >
->### Developed: 
->**2023 September - 2023 October**
+>**Engine:** Unity
 >
->### Engine: 
->**Unity**
+>**Language:** C#
 >
->### Language: 
->**C#**
->
->### Genre: 
->**VR, Single player, Simulation**
+>**Genre:** VR, Single player, Simulation
+</details>
+
 ### Team: 
 
 **Programmers** | **Artists** 
@@ -118,36 +113,30 @@ Me | [Alvin Alvrud](https://www.artstation.com/alvrudart)
 
 ## [Project Accio](https://github.com/emilxf-0/Portfolio/tree/main/Project%20Accio)
 
->**Important**
+<details open>
+ 
+ >**Developed:** 2023 Jan - 2023 Feb
 >
->### Developed: 
->**2023 Jan - 2023 Feb**
+>**Engine:** Unity
 >
->### Engine: 
->Unity
+>**Language:** C#
 >
->### Language: 
->**C#**
+>**Network:** Firebase
 >
->### Networking: 
->**Firebase**
->
->### Genre: 
->**PVP, tug of war, pattern matching**
+>**Genre:** Multiplayer, tug of war, pattern matching
+</details>
 
 ## [Beef System (Master Thesis)](https://github.com/emilxf-0/beef-system](https://github.com/emilxf-0/Portfolio/tree/main/Beef%20System))
 
->**Important**
->### Developed: 
->**2023 Oct - ongoing**
+<details open>
+ 
+ >**Developed:** 2023 October - Ongoing
 >
->### Library: 
->**SDL2**
+>**Library:** SDL2
 >
->### Language: 
->**C++**
+>**Language:** C++
 >
->### Genre: 
->**Master Thesis**
+>**Genre:** Master Thesis
+</details>
 
 
