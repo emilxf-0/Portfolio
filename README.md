@@ -43,9 +43,6 @@ I was responsible for making networking work. That meant setting up a database t
 
 See note [at the top](#projects)
 
-
-
-
 ### Team: 
 **Programmers** | **Artists** 
 -------|-------
@@ -71,11 +68,11 @@ Me | [Tom Hammar](https://www.artstation.com/tomhammar)
 
 Flesh and Stone is a super stylized hack n slash game in the vein of DMC and God of War. We wanted to do something that had the same speedy feel like Doom but that heavily incorporates melee combat. 
 
-### My contributions
+### My contribution
 
 **Combat system** 
 
-I was responsible for making combat feel crunchy, impactful and intuitive. That meant setting up key bindings and blue prints that handled both singular attacks and combos. I worked extensively with timing and gracefully add interactivity to the animation made by the animator. 
+I was responsible for making combat feel crunchy, impactful and intuitive. That meant setting up key bindings and blue prints that handled both singular attacks and combos. I worked extensively with timing and to gracefully add interactivity to the animations made by the animator. 
 
 **Project management**
 
@@ -98,9 +95,19 @@ Me | [Tom Hammar](https://www.artstation.com/tomhammar)
 >
 >**Language:** C#
 >
->**Genre:** VR, Single player, Simulation
+>**Genre:** VR, Single player, Walking simulator
 </details>
 
+### Overview
+Get up is a VR walking sim set at the bottom of a pit. The goal is simply to walk to the top by balancing on some sketchy ass boards. 
+
+### My contribution
+
+**Vertical movement and foot tracking**
+We wanted to explore spatial movement and the challenges of mitigating motion sickness due to the disconnect between perceived and physical movement. To do that we had to find a way for the player to move around in a limited space but still get the benefits of a relatively large game world. By letting the player move in a spiral motion we could keep the need for space to a minimum. VR doesn't play very nicely with collision since there is no way to stop the player from just moving indefinitely (barring physically restricting them, thankfully there are laws in place to stop of us from doing that) which usually means the world gets offset and mess up the placement of the game world. 
+
+**Project management**
+See note [at the top](#projects)
 ### Team: 
 
 **Programmers** | **Artists** 
