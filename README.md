@@ -16,6 +16,19 @@ Okay, so I _know_ that I'm manhandling the precious github markdown-syntax in th
 ### Losing My Marbles
 ![[Losing my marbles title.png]](https://github.com/emilxf-0/Portfolio/blob/main/Images/Losing%20my%20marbles%20title.png)
 
+<details open>
+ 
+ >**Developed:** 2022 Nov - 2023 Jan
+>
+>**Engine:** Unity
+>
+>**Language:** C#
+>
+>**Networking:** Firebase
+>
+>**Genre:** Couch co-op, Party game, Tactical puzzle
+</details>
+
 ### Overview
 
 Losing my marbles is a semi online, couch co-op game where you and your friends use your mobile phones to control your characters. Drawing inspiration from classic board game [RoboRally](https://boardgamegeek.com/boardgame/18/roborally) and party game favorite [Jackbox](https://www.jackboxgames.com/) we created a 2D puzzle/race game as a 7-week project at [Yrgo](https://www.yrgo.se).
@@ -30,24 +43,8 @@ I was responsible for making networking work. That meant setting up a database t
 
 See note [at the top](#projects)
 
-<details>
-<summary>🎮 Game Details</summary>
->
->### Developed: 
->**2022 Nov - 2023 Jan**
->
->### Engine
->**Unity**
->
->### Language: 
->C#
->
->### Networking
->Firebase
->
->### Genre
->Couch co-op, Party game, Tactical puzzle
-</details>
+
+
 
 ### Team: 
 **Programmers** | **Artists** 
