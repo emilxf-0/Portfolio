@@ -69,15 +69,16 @@ Me | [Tom Hammar](https://www.artstation.com/tomhammar)
 
 Flesh and Stone is a super stylized hack n slash game in the vein of DMC and God of War. We wanted to do something that had the same speedy feel like Doom but that heavily incorporates melee combat. 
 
-**BluePrints** | **Animation** | In Game
---- | --- | ---
-![AttackInputBP.gif](https://github.com/emilxf-0/Portfolio/blob/main/Flesh%20and%20Stone/AttackInputBP.gif) | ![LightAttackAnim.gif](https://github.com/emilxf-0/Portfolio/blob/main/Flesh%20and%20Stone/LightAttackAnim.gif) | ![LightAttackClip.gif](https://github.com/emilxf-0/Portfolio/blob/main/Flesh%20and%20Stone/LightAttackClip.gif)
-
 ### My contribution
 
 **Combat system** 
 
 I was responsible for making combat feel crunchy, impactful and intuitive. That meant setting up key bindings and blue prints that handled both singular attacks and combos. I worked extensively with timing and to gracefully add interactivity to the animations made by the animator. 
+
+**BluePrints** | **Animation** | **In Game**
+--- | --- | ---
+![AttackInputBP.gif](https://github.com/emilxf-0/Portfolio/blob/main/Flesh%20and%20Stone/AttackInputBP.gif) | ![LightAttackAnim.gif](https://github.com/emilxf-0/Portfolio/blob/main/Flesh%20and%20Stone/LightAttackAnim.gif) | ![LightAttackClip.gif](https://github.com/emilxf-0/Portfolio/blob/main/Flesh%20and%20Stone/LightAttackClip.gif)
+
 
 **Project management**
 
