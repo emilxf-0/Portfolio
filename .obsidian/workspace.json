@@ -11,9 +11,11 @@
             "id": "38f1388e36b67e47",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "CV/Emil Forsén CV.pdf"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CV/Emil Forsén CV.pdf",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CV/Emil Forsén CV.pdf",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CV/Emil Forsén CV.pdf"
+                "file": "README.md"
               }
             }
           }
@@ -146,8 +148,8 @@
   },
   "active": "38f1388e36b67e47",
   "lastOpenFiles": [
-    "README.md",
     "CV/Emil Forsén CV.pdf",
+    "README.md",
     "CV",
     "New folder",
     "Images/Beef system title.png",
