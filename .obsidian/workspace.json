@@ -11,11 +11,9 @@
             "id": "38f1388e36b67e47",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "CV/Emil Forsén CV.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "CV/Emil Forsén CV.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "CV/Emil Forsén CV.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "CV/Emil Forsén CV.pdf"
               }
             }
           }
@@ -148,14 +146,18 @@
   },
   "active": "38f1388e36b67e47",
   "lastOpenFiles": [
+    "README.md",
+    "CV/Emil Forsén CV.pdf",
+    "CV",
+    "New folder",
+    "Images/Beef system title.png",
+    "Images/Accio title.png",
     "Flesh and Stone/LightAttackClip.gif",
     "Flesh and Stone/LightAttackAnim.gif",
     "Flesh and Stone/AttackInputBP.gif",
     "Flesh and Stone/OH_lightAttack.gif",
     "Flesh and Stone",
-    "New folder",
     "Project Accio/README.md",
-    "README.md",
     "Images/Get up title.png",
     "Pasted image 20231029190205.png",
     "Images/Flesh and stone title.png",
@@ -163,8 +165,6 @@
     "Images",
     "Losing my.png",
     "yrgo.se.md",
-    "Images/Losing my marbles title.png",
-    "Pasted image 20231028170838.png.md",
-    "Project Accio/EnemyMomentum.gif"
+    "Pasted image 20231028170838.png.md"
   ]
 }

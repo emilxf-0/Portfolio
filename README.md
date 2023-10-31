@@ -105,7 +105,7 @@ Me | [Tom Hammar](https://www.artstation.com/tomhammar)
 </details>
 
 ### Overview
-Get up is a VR walking sim set at the bottom of a pit. The goal is simply to walk to the top by balancing on some sketchy ass boards. 
+Get up is a VR walking sim set at the bottom of a pit. The goal is simply to walk to the top by balancing on some preeety sketchy-looking boards. 
 
 ### My contribution
 
@@ -124,6 +124,8 @@ Me | [Alvin Alvrud](https://www.artstation.com/alvrudart)
 
 # Individual Projects
 
+![[Accio title.png]]
+
 ## [Project Accio](https://github.com/emilxf-0/Portfolio/tree/main/Project%20Accio)
 
 <details open>
@@ -138,8 +140,12 @@ Me | [Alvin Alvrud](https://www.artstation.com/alvrudart)
 >
 >**Genre:** Multiplayer, tug of war, pattern matching
 </details>
+### Overview
 
-## [Beef System (Master Thesis)](https://github.com/emilxf-0/beef-system](https://github.com/emilxf-0/Portfolio/tree/main/Beef%20System))
+A 1 v 1 Android game trying to simulate the classical "two wizards shooting a colorful death ray towards each other but they are both equally powerful so they end up in sort of an inverse tug of war"-trope. I wanted to do something cool with pattern matching and trying to utilize firebase for a real time duel game.
+
+![[Beef system title.png]]
+## [Beef System (Master Thesis)](https://github.com/emilxf-0/Portfolio/tree/main/Beef%20System))
 
 <details open>
  
@@ -152,4 +158,5 @@ Me | [Alvin Alvrud](https://www.artstation.com/alvrudart)
 >**Genre:** Master Thesis
 </details>
 
-
+### Overview
+The Beef System is a spin on the Nemesis system, made famous by Shadows of Mordor. As the name implies it's not so much a game as it is a system for emergent narrative. With that said, I wanted a setting that felt thematic so it takes place in the most infuriating of places: traffic. 
