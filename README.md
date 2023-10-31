@@ -124,7 +124,7 @@ Me | [Alvin Alvrud](https://www.artstation.com/alvrudart)
 
 # Individual Projects
 
-![[Accio title.png]]
+![Accio title.png](https://github.com/emilxf-0/Portfolio/blob/main/Images/Accio%20title.png)
 
 ## [Project Accio](https://github.com/emilxf-0/Portfolio/tree/main/Project%20Accio)
 
@@ -144,7 +144,7 @@ Me | [Alvin Alvrud](https://www.artstation.com/alvrudart)
 
 A 1 v 1 Android game trying to simulate the classical "two wizards shooting a colorful death ray towards each other but they are both equally powerful so they end up in sort of an inverse tug of war"-trope. I wanted to do something cool with pattern matching and trying to utilize firebase for a real time duel game.
 
-![[Beef system title.png]]
+![Beef system title.png](https://github.com/emilxf-0/Portfolio/blob/main/Images/Beef%20system%20title.png)
 ## [Beef System (Master Thesis)](https://github.com/emilxf-0/Portfolio/tree/main/Beef%20System))
 
 <details open>
